@@ -1,0 +1,360 @@
+@font-face
+{
+    font-family: "vazir";
+    src: url("Vazir.ttf");
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    font-family: "vazir" !important;
+    direction: rtl;
+    text-align: right !important;
+    overflow-x: hidden;
+}
+.web-landing-section
+{
+    background-image: url(image/vecteezy_concept-of-planting-a-love-tree_2073363.jpg);
+    /* background-position: 0 80px; */
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+.landing-txt
+{
+    border-radius: 28px;
+}
+.nav-link
+{
+    color: white !important;
+}
+.snip1272 {
+    border: none;
+    background-color: #6a951f;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 0px 40px;
+    display: inline-block;
+    margin: 0px 15px;
+    text-transform: uppercase;
+    line-height: 2.7em;
+    font-weight: 600;
+    font-size: 1em;
+    outline: none;
+    position: relative;
+    font-size: 16px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .snip1272:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    right: 50%;
+    border-radius: inherit;
+    background-color: rgba(255, 255, 255, 0.15);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  /* .snip1272:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+    background-color: inherit;
+    border-radius: 10px;
+    z-index: -1;
+    box-shadow: inset 0 -6px 10px rgba(0, 0, 0, 0.75);
+  } */
+  .snip1272:hover:after,
+  .snip1272.hover:after {
+    left: 0;
+    right: 0;
+  }
+.productBox1
+{
+    background-image: url(image/pexels-golden-jojo-2409038.jpg);
+    background-size: cover;
+    width: 100%;
+    height:430px;
+    border-radius: 30px;
+}
+
+.snip1273 {
+    border: none;
+    background-color: #6a951f;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 0px 25px;
+    display: inline-block;
+    margin: 5px 0px 0px 0px;
+    text-transform: uppercase;
+    line-height: 2em;
+    font-weight: 600;
+    font-size: 1em;
+    outline: none;
+    position: relative;
+    font-size: 16px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .snip1273:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    right: 50%;
+    border-radius: inherit;
+    background-color: rgba(255, 255, 255, 0.15);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .snip1273:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+    background-color: inherit;
+    border-radius: 10px;
+    z-index: -1;
+    box-shadow: inset 0 -6px 10px rgba(0, 0, 0, 0.75);
+  }
+  .snip1273:hover:after,
+  .snip1273.hover:after {
+    left: 0;
+    right: 0;
+}
+.productTxt
+{
+    /* margin-top: 250px; */
+    z-index: 1;
+    position: relative;
+}
+.productBox2
+{
+    background-image: url(image/pexels-julia-sakelli-1011302.jpg);
+    background-size: cover;
+    width: 100%;
+    height:430px;
+    border-radius: 30px;
+    position: relative;
+    z-index: 0;
+}
+.cover
+{
+    position: absolute;
+    border-radius: 30px;
+    z-index: -100;
+    width: 100%;
+    height: 100%;
+    /* height: 430px; */
+    background-color: rgba(0, 0, 0, 0.692);
+}
+.productBox3
+{
+    background-image: url(image/pexels-jonathan-borba-2922353.jpg);
+    background-size: cover;
+    width: 100%;
+    height:430px;
+    border-radius: 30px;
+    position: relative;
+    z-index: 0;
+}
+.productBox1:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.44),0 17px 50px 0 rgba(0,0,0,0.19);
+    transition: 0.5s;
+    margin-top: -10px;
+}
+.productBox2:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.44),0 17px 50px 0 rgba(0,0,0,0.19);
+    transition: 0.5s;
+    margin-top: -10px;
+}
+.productBox3:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.44),0 17px 50px 0 rgba(0,0,0,0.19);
+    transition: 0.5s;
+    margin-top: -10px;
+}
+.web-blog-section
+{
+    background-image: url(image/pexels-scott-webb-1022922.jpg);
+    /* height: 600px; */
+    background-size: cover;
+    background-position: 0px -10px;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -100;
+}
+.cover1
+{
+    /* position: absolute; */
+    z-index: -100;
+    width: 100%;
+    height: 100%;
+    /* height: 430px; */
+    background-color: rgba(0, 0, 0, 0.233);
+}
+.myHead:after {      /***************/
+    content:"";
+    display:block;
+    height:4px;
+    width:40px;
+    background-color: #6a951f;
+    margin-top: 20px;
+    margin: 20px auto 0px;
+}
+#blogBox
+{
+    right: 160px;
+}
+.teamBox1
+{
+    background-image: url(image/pexels-spencer-selover-775358.jpg);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -50px;
+    border-radius: 18px;
+}
+.teamBox2
+{
+    background-image: url(image/pexels-italo-melo-2379005.jpg);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -10px;
+    border-radius: 18px;
+}
+.teamBox3
+{
+    background-image: url(image/beautiful-young-woman-looking-camera.jpg);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+}
+.teamTxt
+{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 20% -30px;
+    bottom: 0px;
+    right: 25px;
+    border-radius: 8px;
+}
+.web-counter-section
+{
+    background-image: url(image/pexels-ylanite-koppens-1495160.jpg);
+    background-attachment: fixed;
+    /* background-position: 0 -300px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.web-counter-section .web-counter-item span {
+	display: block;
+	font-family: 'Rubik'
+}
+.web-counter-section .web-counter-item .web-counter-number {
+	font-size: 2.5rem;
+	font-weight: 700;
+}
+.web-counter-section .web-counter-item .web-counter-name {
+	font-size: 1.5rem;
+	font-weight: 500
+}
+.cover2
+{
+    background-color: rgba(0, 0, 0, 0.521);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.blogBox:hover
+{
+    box-shadow: 0 1rem 2rem rgb(0 0 0 / 8%) !important;
+    transition: 1.2s;
+}
+.snip12733 {
+    border: none;
+    background-color: #6a951f;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 5px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    font-weight: 600;
+    font-size: 1em;
+    outline: none;
+    position: relative;
+    font-size: 16px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .snip12733:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    right: 50%;
+    border-radius: inherit;
+    background-color: rgba(255, 255, 255, 0.15);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .snip12733:hover:after,
+  .snip12733.hover:after {
+    left: 0;
+    right: 0;
+  }
+.web-footer-section
+{
+    background-image: url(image/pexels-diana-chaplin-1242458.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.cover3
+{
+    background-color: rgba(0, 0, 0, 0.521);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+li
+{
+    list-style-type: none;
+}
+.footerLink
+{
+    text-decoration: none !important;
+}
+.footerLink:hover
+{
+    color: white !important;
+}

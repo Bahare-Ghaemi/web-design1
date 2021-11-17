@@ -1,0 +1,32 @@
+یافتن اسم انیمیشن سی اس اس :  https://daneden.github.io/animate.css/
+
+وقتی اسم انیمیشن هارو کپی کردی قبلش به اون المان کلاس animate__animated رو بده
+<img src="Untitled.png" class="animated bounceInRight">
+animated باید باشه
+
+CDN مربوط به انیمیشن ها : 
+<head>
+<link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">  
+<!-- یا --> 
+<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+
+کتابخانه wow.js  :
+github.com/graingert/wow
+فایل را دانلود میکینم یا برای بالابردن سرعت فایل wow.js را به سایت وصل میکنیم
+و همچنین برای فعال کردن این پلاگین، کد زیر را به برنامه اضافه میکنیم :
+
+<script>
+    new WOW().init();
+</script>
+
+کلاس های لازم برای تاخیر دادن به یک انیمیشن :
+<div class="animate__animated animate__pulse wow" data-wow-delay="2s"></div>
+
+دادن کلاس wow به المان هایی که پایین تر از ص لندینگ قرار دارند تا وقتی اسکرول به آنها رسید انیمیشن اجرا شود.
+
+جلوگیری از اسکرول افقی لحظه ای :
+body{
+   overflow-x : hidden;
+}
+یا اینکه تمام کد هارا داخل یک دیو با کلاس outer-container قرار دهیم و به این دیو، استایل بالا را بدهیم
